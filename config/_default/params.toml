@@ -81,7 +81,7 @@ edit_page = {repo_url = "https://github.com/gcushen/hugo-academic", content_dir 
 ############################
 
 # Enter contact details (optional). To hide a field, clear it to "".
-email = "test@example.org"
+email = "jason@jasonjolley.com"
 phone = "888 888 88 88"
 
 # Address
@@ -171,7 +171,7 @@ plugins_js  = []
 # An avatar can be uploaded as an image named `avatar` to each user's profile or fetched from Gravatar.com.
 [avatar]
   # Get user avatars from Gravatar.com? (true/false)
-  gravatar = false
+  gravatar = true
 
   # Choose a shape for avatar images. Options: circle, square.
   shape = "circle"

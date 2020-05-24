@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Nelson Bighetti
+title: Jason Jolley
 
 # Username (this should match the folder name)
 authors:
@@ -10,7 +10,7 @@ authors:
 superuser: true
 
 # Role/position
-role: Professor of Artificial Intelligence
+role: Director, Application Development
 
 # Organizations/Affiliations
 organizations:
@@ -18,7 +18,7 @@ organizations:
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: My research interests include leading engineering teams, cloud technologies, applying technology to make an impact in daily life.
 
 interests:
 - Artificial Intelligence
@@ -44,16 +44,16 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: '#contact'  # For a direct email link, use "mailto:test@example.org".
+  link: '#contact'  # For a direct email link, use "mailto:jason@jasonjolley.com".
 - icon: twitter
   icon_pack: fab
-  link: https://twitter.com/GeorgeCushen
+  link: https://twitter.com/jasonjolley
 - icon: google-scholar
   icon_pack: ai
   link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
 - icon: github
   icon_pack: fab
-  link: https://github.com/gcushen
+  link: https://github.com/jasonjolley
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
@@ -61,7 +61,7 @@ social:
 #   link: files/cv.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: ""
+email: "jason@jasonjolley.com"
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
@@ -70,6 +70,10 @@ user_groups:
 - Visitors
 ---
 
-Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Software Craftsman, Agile Coach, Technology Enthusiast, ECM Specialist and Director of Application Development at Micro Strategies. In short, I love using technology to solve real business problems.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+This website is a collection of my thoughts on what it takes to build, lead, and manage teams that create quality software. I’ve spent the last fifteen years leading development teams. Prior to that I was a Java Instructor and a private consultant.
+
+I am proficient in many technologies, but I don’t subscribe to any as the answer to all problems. I believe it’s not enough to know how to write code, it’s about knowing what it means to craft quality software. I lead teams that focus on mastering Agile and Software Craftsmanship techniques to construct the best possible software for our clients.
+
+Disclaimer: The posts on this site are my own and don’t necessarily represent Micro Strategies’ positions, strategies, or opinions.
