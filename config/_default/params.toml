@@ -106,7 +106,7 @@ email = "jason@jasonjolley.com"
 #   Set to `[]` to disable, or comment out unwanted lines with a hash `#`.
 contact_links = [
   {icon = "twitter", icon_pack = "fab", name = "DM Me", link = "https://twitter.com/jasonjolley"},
-  {icon = "linkedin", icon_pack = "fab", name = "LinkedIn", link = "https://linkedin.com/jasonjolley"},
+  {icon = "linkedin", icon_pack = "fab", name = "LinkedIn", link = "https://www.linkedin.com/in/jasonjolley/"},
   {icon = "envelope", icon_pack = "fas", name = "E-Mail", link = "mailto:jason@jasonjolley.com"}
 #  {icon = "skype", icon_pack = "fab", name = "Skype Me", link = "skype:echo123?call"},
 #  {icon = "keybase", icon_pack = "fab", name = "Chat on Keybase", link = "https://keybase.io/"},
