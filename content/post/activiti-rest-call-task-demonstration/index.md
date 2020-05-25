@@ -30,7 +30,7 @@ projects: []
 ![Weather Process](Weather-Process.jpg)
 If you've ever designed a workflow you'll know that one of the most common requirements is to integrate various, disparate systems. To make this a little easier, the folks at Activiti created a REST Call Task to integrate simple RESTful service calls into a workflow without writing any code. The video below gives a demonstration on how to build a workflow using the REST Call Task to integrate with a third party web service (in this case, a public weather API).
 
-<center><iframe src="https://www.youtube.com/embed/x7YCHYCIxpM" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></center>
+{{< youtube x7YCHYCIxpM >}}
 To use this sample workflow in your own system you need to do the following.
 <ol>
  	<li>Set up a local instance of Activiti Enterprise. If you don't have a copy, download the trial here: &nbsp;<a href="https://www.alfresco.com/products/activiti/trial">Activiti Enterprise Trial</a>.</li>
@@ -41,8 +41,7 @@ Protocol:&nbsp;&nbsp;&nbsp;&nbsp;HTTP
 Host:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;api.wunderground.com
 Path: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/api/ab0b268232a61a53/conditions/q</code></li>
  	<li>Import the App. You can download it here:
- 	{{% staticref "files/Get-Weather-By-Zip-Code-App.zip" "newtab" %}}Get Weather By Zip Code App{{% /staticref %}}
- 	.&nbsp;If you created an Endpoint with the name 'Weather Service' everything should be okay. If you used a different name, you'll have to select the appropriate endpoint in the REST Call Task.</li>
+ 	{{% staticref "files/Get-Weather-By-Zip-Code-App.zip" "newtab" %}}Get Weather By Zip Code App{{% /staticref %}}.&nbsp;If you created an Endpoint with the name 'Weather Service' everything should be okay. If you used a different name, you'll have to select the appropriate endpoint in the REST Call Task.</li>
  	<li>Publish the App and add it to your dashboard.</li>
  	<li>Try it out!</li>
 </ol>
