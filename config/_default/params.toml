@@ -10,7 +10,8 @@
 #   Browse built-in themes in `themes/academic/data/themes/`
 #   Browse user installed themes in `data/themes/`
 #theme = "minimal"
-theme = "Forest"
+#theme = "Forest"
+theme = "My Theme"
 # Enable users to switch between day and night mode?
 day_night = true
 
