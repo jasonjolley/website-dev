@@ -21,9 +21,11 @@ organizations:
 bio: My research interests include leading engineering teams, cloud technologies, applying technology to make an impact in daily life.
 
 interests:
-- Artificial Intelligence
-- Computational Linguistics
-- Information Retrieval
+- Software Craftsmanship
+- Team Building
+- Content and Process Services
+- Cloud Technologies
+- Security
 
 education:
   courses:
