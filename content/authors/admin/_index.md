@@ -70,9 +70,9 @@ user_groups:
 - Visitors
 ---
 
-Software Craftsman, Agile Coach, Technology Enthusiast, ECM Specialist and Director of Application Development at Micro Strategies. In short, I love using technology to solve real business problems.
+Software Craftsman, Technology Enthusiast, Content & Process Services Specialist, and Director of Application Development at Micro Strategies. In short, I love using technology to solve real business problems.
 
-This website is a collection of my thoughts on what it takes to build, lead, and manage teams that create quality software. I’ve spent the last fifteen years leading development teams. Prior to that I was a Java Instructor and a private consultant.
+This website is a collection of my thoughts on what it takes to build, lead, and manage teams that create quality software. I’ve spent the last twenty years leading development teams. Prior to that I was a Java Instructor and a private consultant.
 
 I am proficient in many technologies, but I don’t subscribe to any as the answer to all problems. I believe it’s not enough to know how to write code, it’s about knowing what it means to craft quality software. I lead teams that focus on mastering Agile and Software Craftsmanship techniques to construct the best possible software for our clients.
 
