@@ -28,7 +28,8 @@ image:
 projects: []
 ---
 
-<p><img src="https://jasonjolley.com/blog/wp-content/uploads/2014/11/112514_2058_5ReasonstoA1.jpg" alt=""></p>
+![Code Retreat](112514_2058_5ReasonstoA1.jpg)
+
 <p>November 15 was the <a href="https://globalday.coderetreat.org/">Global Day of Coderetreat</a>. It is an event where software developers around the world practice their craft away from the pressure of work and timelines. This year we hosted an event at the <a href="https://www.microstrat.com/">Micro Strategies</a> office in Rockaway, NJ. There were 141 coderetreats worldwide, with about 2500 participants.</p>
 <p>In a coderetreat, participants work together in pairs on a programming problem named "<a href="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life">Conway's Game of Life</a>". Every hour or so, participants delete their code, exchange partners, then code once more. There are typically 5 or 6 of these sessions within a coderetreat. Each session will have a different set of constraints imposed upon the participants, which push them to think and use different techniques. Participants are not expected to solve the problem, only to keep a primary focus on their coding approach and technique. This is the time for people to try to write perfect code.</p>
 <p>Here are my top five reasons to participate in a Coderetreat:</p>
