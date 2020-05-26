@@ -38,10 +38,10 @@ To use this sample workflow in your own system you need to do the following.
  	<li>
 <div>Create an Endpoint. Please note that the Path includes a key value (ab0b268232a61a53) that is for demonstration purposes only. You can create your own at <a href="http://api.wunderground.com" target="_blank">api.wunderground.com</a>.</div>
 ```python
-<code>Name: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Weather Service
+Name: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Weather Service
 Protocol:&nbsp;&nbsp;&nbsp;&nbsp;HTTP
 Host:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;api.wunderground.com
-Path: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/api/ab0b268232a61a53/conditions/q</code>
+Path: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/api/ab0b268232a61a53/conditions/q
 ```
 </li>
  	<li>Import the App. You can download it here:
