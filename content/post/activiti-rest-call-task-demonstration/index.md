@@ -42,7 +42,11 @@ Name: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Weather Service</br>
 Protocol:&nbsp;&nbsp;&nbsp;&nbsp;HTTP</br>
 Host:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;api.wunderground.com</br>
 Path: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/api/ab0b268232a61a53/conditions/q</br>
-
+```python
+# Example of code highlighting
+input_string_var = input("Enter some data: ")
+print("You entered: {}".format(input_string_var))
+```
 </li>
  	<li>Import the App. You can download it here:
  	{{% staticref "files/Get-Weather-By-Zip-Code-App.zip" "newtab" %}}Get Weather By Zip Code App{{% /staticref %}}.&nbsp;If you created an Endpoint with the name 'Weather Service' everything should be okay. If you used a different name, you'll have to select the appropriate endpoint in the REST Call Task.</li>
@@ -50,9 +54,5 @@ Path: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/api/ab0b268232a61a53/conditions
  	<li>Try it out!</li>
 </ol>
 
-```python
-# Example of code highlighting
-input_string_var = input("Enter some data: ")
-print("You entered: {}".format(input_string_var))
-```
+
 If you have any questions, feel free to reach out to me.
