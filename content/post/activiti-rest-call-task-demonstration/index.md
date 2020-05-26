@@ -37,12 +37,12 @@ To use this sample workflow in your own system you need to do the following.
  	<li>Set up a local instance of Activiti Enterprise. If you don't have a copy, download the trial here: &nbsp;<a href="https://www.alfresco.com/products/activiti/trial">Activiti Enterprise Trial</a>.</li>
  	<li>
 <div>Create an Endpoint. Please note that the Path includes a key value (ab0b268232a61a53) that is for demonstration purposes only. You can create your own at <a href="http://api.wunderground.com" target="_blank">api.wunderground.com</a>.</div>
-```python
+'''python
 Name: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Weather Service
 Protocol:&nbsp;&nbsp;&nbsp;&nbsp;HTTP
 Host:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;api.wunderground.com
 Path: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/api/ab0b268232a61a53/conditions/q
-```
+'''
 </li>
  	<li>Import the App. You can download it here:
  	{{% staticref "files/Get-Weather-By-Zip-Code-App.zip" "newtab" %}}Get Weather By Zip Code App{{% /staticref %}}.&nbsp;If you created an Endpoint with the name 'Weather Service' everything should be okay. If you used a different name, you'll have to select the appropriate endpoint in the REST Call Task.</li>
