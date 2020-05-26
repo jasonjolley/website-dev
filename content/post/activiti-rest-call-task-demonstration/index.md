@@ -43,9 +43,10 @@ Protocol:&nbsp;&nbsp;&nbsp;&nbsp;HTTP</br>
 Host:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;api.wunderground.com</br>
 Path: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/api/ab0b268232a61a53/conditions/q</br>
 ```python
-# Example of code highlighting
-input_string_var = input("Enter some data: ")
-print("You entered: {}".format(input_string_var))
+Name: Weather Service
+Protocol: HTTP
+Host: api.wunderground.com
+Path: /api/ab0b268232a61a53/conditions/q
 ```
 </li>
  	<li>Import the App. You can download it here:
