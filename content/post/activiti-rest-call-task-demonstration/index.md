@@ -49,4 +49,10 @@ Path: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/api/ab0b268232a61a53/conditions
  	<li>Publish the App and add it to your dashboard.</li>
  	<li>Try it out!</li>
 </ol>
+
+```python
+# Example of code highlighting
+input_string_var = input("Enter some data: ")
+print("You entered: {}".format(input_string_var))
+```
 If you have any questions, feel free to reach out to me.
