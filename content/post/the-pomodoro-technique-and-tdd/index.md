@@ -28,7 +28,7 @@ image:
 #   Otherwise, set `projects = []`.
 projects: []
 ---
-<a href="https://flic.kr/p/8zD2NQ"><img class="alignnone wp-image-294 size-full" src="https://jasonjolley.com/blog/wp-content/uploads/2014/10/tomato-timer-small.jpg" alt="tomato timer small" width="640" height="270"></a>
+![Tomato Timer](tomato-timer-small.jpg)
 If you are a programmer you know time management issues are an inherent part of the job. Programming requires creativity. However, to tap into this creativity most programmers strive for a state of flow to help them get 'in the zone'. This feels like the most productive time. Inconveniently, a good programmer is often involved in many other tasks: <span style="font-size: 12pt;">
 </span>
 <ul>
