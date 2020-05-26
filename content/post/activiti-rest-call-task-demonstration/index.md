@@ -37,11 +37,6 @@ To use this sample workflow in your own system you need to do the following.
  	<li>Set up a local instance of Activiti Enterprise. If you don't have a copy, download the trial here: &nbsp;<a href="https://www.alfresco.com/products/activiti/trial">Activiti Enterprise Trial</a>.</li>
  	<li>
 <div>Create an Endpoint. Please note that the Path includes a key value (ab0b268232a61a53) that is for demonstration purposes only. You can create your own at <a href="http://api.wunderground.com" target="_blank">api.wunderground.com</a>.</div>
-
-Name: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Weather Service</br>
-Protocol:&nbsp;&nbsp;&nbsp;&nbsp;HTTP</br>
-Host:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;api.wunderground.com</br>
-Path: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/api/ab0b268232a61a53/conditions/q</br>
 ```python
 Name: Weather Service
 Protocol: HTTP
