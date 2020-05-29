@@ -9,7 +9,7 @@ tags: []
 categories: []
 date: 2014-9-23T12:45:06-04:00
 lastmod: 2014-9-23T12:45:06-04:00
-featured: false
+featured: true
 draft: false
 
 # Featured image
