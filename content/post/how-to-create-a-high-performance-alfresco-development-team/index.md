@@ -27,6 +27,7 @@ image:
 #   Otherwise, set `projects = []`.
 projects: []
 ---
+
 ![Alfresco Summit Lightning Talk](small-lightning-talk.jpg)
 
 Creating a high performance Alfresco development team does not happen by accident. You need to build a team of professional developers, with a consistently adopted development methodology.
