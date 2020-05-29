@@ -1,7 +1,7 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "How to Make a Process Form Reusable in the Activiti Enterprise Bpm Suite"
+title: "How to Make a Process Form Reusable in the Activiti Enterprise BPM Suite"
 subtitle: ""
 summary: ""
 authors: []
@@ -27,7 +27,7 @@ image:
 #   Otherwise, set `projects = []`.
 projects: []
 ---
-<img alt="" src="https://jasonjolley.com/blog/wp-content/uploads/2015/09/091415_0329_Howtomakeap1.jpg">
+![Activiti Editor](091415_0329_Howtomakeap1.jpg)
 
 If you have ever created a process in the Activiti Enterprise BPM Suite, you have probably created forms within that process. If so, you may have run into that painful moment when you realize that the form you built within the process is not reusable to other processes. Luckily, there is an easy remedy, with a little tinkering in the database.
 
@@ -43,24 +43,24 @@ For more detail, I've included a step by step guide.
 <h3>Find the Form ID</h3>
 Within the process definition, select the task with the desired form. Select the 'Referenced form' value. In this example it is named 'Update Address Form'.
 
-<img alt="" src="https://jasonjolley.com/blog/wp-content/uploads/2015/09/091415_0329_Howtomakeap2.jpg">
+![BPMN Editor](091415_0329_Howtomakeap2.jpg)
 
 Click the 'Open' button.
 
-<img alt="" src="https://jasonjolley.com/blog/wp-content/uploads/2015/09/091415_0329_Howtomakeap3.jpg">
+![Form Reference](091415_0329_Howtomakeap3.jpg)
 
 The form will open on your screen. Look at the browser's URL address bar. Take a note of the last part of the URL. It is the form's ID.
 
-<a href="https://jasonjolley.com/blog/wp-content/uploads/2015/09/Form-Page-medium-with-box.jpg"><img width="799" height="660" class="alignnone wp-image-394 " alt="Form Page - medium with box" src="https://jasonjolley.com/blog/wp-content/uploads/2015/09/Form-Page-medium-with-box.jpg"></a>
+![Form Page](Form-Page-medium-with-box.jpg)
 <h3>Find the Row in the MODEL Table in the Activiti Database</h3>
 Next, open the Activiti database's 'MODEL' table. Find the record with a matching ID (in this case '2007'). You'll notice a value in the 'REFERENCE_ID' field. This is the ID of the process model to which the form is currently associated. That process model is also in this table and can be seen with the ID 2006.
 
-<img alt="" src="https://jasonjolley.com/blog/wp-content/uploads/2015/09/091415_0329_Howtomakeap5.jpg">
+![Database Table](091415_0329_Howtomakeap5.jpg)
 <h3>Update the Database</h3>
 Remove the value in the REFERENCE_ID field for your form, leaving a null value in its place. Please note that modifying any system's underlying database comes with some risk. You should understand databases systems if you are going to make this change, and ideally, be in a development environment.
 
-<img alt="" src="https://jasonjolley.com/blog/wp-content/uploads/2015/09/091415_0329_Howtomakeap6.jpg">
+![Update Database](091415_0329_Howtomakeap6.jpg)
 
 That's it! Now, if you navigate to the Forms page in the Kickstart app you will see your form listed as a reusable form.
 
-<img alt="" src="https://jasonjolley.com/blog/wp-content/uploads/2015/09/091415_0329_Howtomakeap7.jpg">
+![Reusable Form](091415_0329_Howtomakeap7.jpg)
