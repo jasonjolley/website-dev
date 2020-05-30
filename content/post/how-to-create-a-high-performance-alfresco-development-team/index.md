@@ -30,6 +30,10 @@ projects: []
 
 ![Alfresco Summit Lightning Talk](small-lightning-talk.jpg)
 
+{{% alert note %}}
+This article was written in September 2014. 
+{{% /alert %}}
+
 Creating a high performance Alfresco development team does not happen by accident. You need to build a team of professional developers, with a consistently adopted development methodology.
 <h2>People First</h2>
 Hiring good teammates is the riskiest part of building a development team. Mistakes here are costly, with their ill-effects long reaching. Define the profile of the person you would like to hire. For a developer, some common traits are:
