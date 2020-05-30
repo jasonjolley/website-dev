@@ -31,7 +31,7 @@ projects: []
 ![Alfresco Summit Lightning Talk](small-lightning-talk.jpg)
 
 {{% alert note %}}
-This article was written in September 2014. 
+This article was written in September 2014. It stays true even today. One difference is that instead of coding with Share, I recommend focussing on Alfresco's ADF framework.
 {{% /alert %}}
 
 Creating a high performance Alfresco development team does not happen by accident. You need to build a team of professional developers, with a consistently adopted development methodology.
