@@ -18,7 +18,7 @@ organizations:
   url: "https://www.microstrat.com"
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include leading engineering teams, cloud technologies, applying technology to make an impact in daily life.
+bio: My research interests include leading engineering teams, cloud technologies, and applying technology to make an impact in daily life.
 
 interests:
 - Software Craftsmanship
